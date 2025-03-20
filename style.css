@@ -1,0 +1,33 @@
+body {
+    background-color: #F6F6F6;        /* Цвет фона документа */
+    margin: 40px 25px;                /* Отступы по краям документа */
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif; /* Шрифт заголовка h2 */
+    font-size: 16px;                  /* Высота шрифта */
+    font-weight: lighter;             /* Жирность шрифта */
+}
+
+.red {
+    color: #950000;                   /* Цвет текста класса "red" */
+}
+
+ul {
+    margin: 0;                        /* Внешние отступы блоков ul */
+    padding: 0;                       /* Внутренние отступы ul */
+}
+
+ul li {
+    background-color: #E0E0E0;        /* Цвет фона блоков ul */
+    list-style-type: none;            /* Отключение маркера списка */
+    text-align: center;               /* Выравнивание текста по центру */
+    font-family: 'Verdana', sans-serif; /* Шрифт блока ul */
+    font-size: 24px;                  /* Размер шрифта */
+    display: inline-block;            /* Переназначение блочного элемента в совмещенный */
+    padding: 0 10px;                  /* Горизонтальные внутренние отступы */
+}
+
+ul li span {
+    font-size: 30px;                  /* Увеличенный размер мастей карт */
+}
